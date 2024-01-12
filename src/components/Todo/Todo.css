@@ -1,0 +1,90 @@
+h1{
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.done{
+    color: green;
+    text-decoration: line-through;
+}
+
+li{
+margin: 10px;
+padding-right: 20px;
+}
+*{
+    list-style-type: none;
+}
+
+button{
+    margin-left: 10px;
+}
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    border: none; 
+    outline: none; 
+  } 
+   
+  .todos-container { 
+    width: 1000px; 
+    border: 1px solid blue; 
+    border-radius: 20px; 
+    min-height: fit-content; 
+    padding: 10px;  
+    margin-top: 100px;
+  background-color: rgb(240, 153, 172);
+  } 
+  form{ 
+    width: 100%; 
+    display: flex; 
+    gap: 10px; 
+  } 
+  form input{ 
+    width: 100%; 
+    padding: 8px; 
+    border-radius: 10px; 
+    border: 1px solid gray; 
+    outline: none; 
+  } 
+  form button{ 
+    padding: 10px 20px ; 
+    background-color: green; 
+    outline: none; 
+    border: none; 
+    border-radius: 10px; 
+    color: white; 
+    cursor: pointer; 
+  } 
+  .list-item .todo-list{ 
+    width: 100%; 
+    padding: 10px; 
+    background-color: gray; 
+    color: white; 
+    border-radius: 10px; 
+  } 
+   
+  .list-item{ 
+    margin-top: 10px; 
+    width: 100%; 
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+  } 
+  .done-list{ 
+    text-decoration: line-through; 
+    background-color: green; 
+    width: 100%; 
+    padding: 10px; 
+    color: white; 
+    border-radius: 10px; 
+    font-size: 20px; 
+  }
+  
+  
+
+
+  
